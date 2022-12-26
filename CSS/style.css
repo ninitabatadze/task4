@@ -1,0 +1,836 @@
+                    
+                        @font-face {
+                            font-family:atkinson ;
+                            src: url(../CSS/FONTS/atkinson-hyperlegible-bold-102-webfont.woff2);
+                            }
+                            @font-face{
+                            font-family: atkinson_1;
+                            src: url(../FONTS/atkinson-hyperlegible-regular-102-webfont.woff2);
+                            }
+                            body
+                            {
+                            background-color:#f3eee4 ;  
+                            display: flex; 
+                            justify-content:center;
+                            align-items:center;
+                            box-sizing:border-box;
+                            }
+                            .container{ 
+                            padding: 15px;
+                            margin: 10px;
+                            }
+                            h1{
+                            font-family: atkinson; 
+                            color:#1c2334;
+                            font-size: 50px;
+                            font-weight:bold;
+                            text-align:left;
+                            }
+                            h2{
+                            font-family: atkinson;
+                            font-size: 40px;
+                            color: #1c2334;
+                            font-weight: bolder; 
+                            }
+                            p{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            text-align: left;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;
+                            }   
+                            span{
+                            font-family:atkinson_1;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;
+                            width: 100px;
+                            }   
+                            .h2-1
+                            {
+                            font-family: atkinson; 
+                            color:#1c2334;
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px;
+                            scroll-padding-bottom: 10px; 
+                            }
+                            .date-1{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            text-align: left;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;
+                            }   
+                            .text-1{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            }
+                            .h2-2{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px;   
+                            scroll-padding-bottom: 10px;  
+                            }
+                            .date-2{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;
+                            }
+                            .text-2{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;
+                            }
+                            .h2-3{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px;
+                            scroll-padding-bottom: 10px;  
+                            }
+                            .date-3{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;  
+                            }
+                            .text-3{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;    
+                            }
+                            .h2-4{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px; 
+                            }
+                            .date-4{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;      
+                            }
+                            .text-4{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;
+                            }
+                            .h2-5{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px; 
+                            }
+                            .date-5{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;   
+                            }
+                            .text-5{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;    
+                            }
+                            .h2-6{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;          
+                            }
+                            .date-6{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;                      
+                            }
+                            .text-6{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;        
+                            }
+                            .h2-7{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;                   
+                            }   
+                            .date-7{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;          
+                            }
+                            .text-7{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;                     
+                            }
+                            .h2-8{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;        
+                            }
+                            .date-8{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;        
+                            }
+                            .text-8{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;        
+                            }
+                            .h2-9{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;          
+                            }
+                            .date-9{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-9{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-10{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-10{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-10{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-11{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-11
+                            {font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-11{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-12{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-12{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-12{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-13{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-13{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-13{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-14{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-14{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-14{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-15{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-15{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-15{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-16{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-16{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-16{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-17{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-17{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-17{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-18{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-18
+                            {
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-18{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-19{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-19{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-19{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-20{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-20{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-20{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-21{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-21{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-21{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-22{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-22{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-22{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-23{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-23{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-23{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-24{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-24{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-24{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-25{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-25{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-25{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-26{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-26{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-26{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-27{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-27{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-27{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-28{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-28{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-28{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-29{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-29{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-29{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-30{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-30{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-30{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .h2-31{
+                            font-family: atkinson;
+                            color:#1c2334; 
+                            font-size: 50px;
+                            font-weight: bolder;
+                            margin-top: 60px; 
+                            scroll-padding-bottom: 10px;
+                            }
+                            .date-31{
+                            font-family:atkinson_1;
+                            color: #bb1450;
+                            font-size: 20px;
+                            margin-left:0px;
+                            margin-top:-30px;       
+                            }
+                            .text-31{
+                            font-family:atkinson;
+                            color:#1c2334;
+                            font-size: 20px;
+                            padding-bottom: 10px;          
+                            }
+                            .img {
+                            display: flex;
+                            margin-left: 850px;
+                            margin-top: -220px;
+                            }
+                            .box{
+                            color: #1c2334;
+                            font-family: atkinson;
+                            font-size: 50px;
+                            background-color: #e5bf55;
+                            text-align: center;
+                            margin-bottom: 50px;
+                            margin-top: 50px;
+                            padding-top: 15px;
+                            height: 500px;
+                            }
+                            h3{
+                            margin:50px;    
+                            }
+                            .founder{
+                            font-family: atkinson;
+                            font-size:20px;
+                            text-align: center;
+                            color: #1c2334;
+                            padding: 10px;
+                            }
+                            .andy {
+                            font-family: atkinson;
+                            color: #1c2334;
+                            text-decoration: underline;
+                             text-decoration-color: rgb(199, 58, 77);
+                            }
+                            .get{
+                            font-family: atkinson;
+                            color: #1c2334;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(199, 58, 77);
+                            }
+                            .set{
+                            font-family: atkinson;
+                            color: #1c2334;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(199, 58, 77);    
+                            }
+                            .button {
+                            font-family: atkinson;
+                            font-weight: 600;
+                            font-size: 20px;
+                            color: white;
+                            background-color: #1c2334;
+                            width: 220px;
+                            height: 45px;
+                            border-radius: 50px;
+                            border-color: #f374a3;
+                            border-style: solid;
+                            }
+                            .follow{
+                            padding:10px;
+                            column-gap:50px;
+                            }
+                            .foll {
+                            font-family: atkinson;
+                            color: #1c2334;
+                            font-weight: 700;
+                            font-size: 20px;
+                            width: 300px;
+                            height: 45px;
+                            border-radius: 50px;
+                            border-color: #1c2334;
+                            background-color: #e5bf55;
+                            }
+                            
+                            .text1 {
+                            text-align: center;
+                            font-family: atkinson;
+                            font-size: 18px;
+                            font-weight: 800;
+                            }
+                            .text2 {
+                            text-align: center;
+                            margin-bottom: 100px;
+                            font-family: atkinson;
+                            font-size: 18px;
+                            font-weight: 800;
+                            }
+                            .text1 a {
+                            color: #1c2334;
+                            padding-left: 40px;
+                            }
+                            .text2 a {
+                            color: #1c2334;
+                            padding-left: 40px;
+                            }
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                                    
+
+                                                        
+
+                            
+                
+            
+
+                            
+                
+            
+
+                            
+                
+            
+
+                            
+                
+            
+
+                
+            
+
+                
+            
+
+                        
+
+                        
+
